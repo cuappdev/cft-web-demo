@@ -1,5 +1,5 @@
 import MemberCard from "@/components/MemberCard";
-import { Member, peter, aayush, jennifer } from "@/types/Member";
+import { peter, aayush, jennifer } from "@/types/Member";
 
 export default function Home() {
 
