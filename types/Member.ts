@@ -114,6 +114,7 @@ const members: Member[] = [
     subteam: "iOS",
     position: "iOS Lead",
   },
+  
 ];
 
 export { members, peter, aayush, jennifer };
