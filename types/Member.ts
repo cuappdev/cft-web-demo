@@ -5,12 +5,66 @@ export type Member = {
   position: string;
 }
 
+const peter: Member = {
+  name: "Peter Bidoshi",
+  image: "peter.png",
+  subteam: "iOS",
+  position: "Course Instructor",
+};
+
+const aayush: Member = {
+  name: "Aayush Agnihotri",
+  image: "aayush.jpeg",
+  subteam: "Backend",
+  position: "Backend Lead",
+};
+
+const jennifer: Member = {
+  name: "Jennifer Gu",
+  image: "jennifer.jpg",
+  subteam: "iOS",
+  position: "Vice Team Lead",
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const members: Member[] = [
+  {
+    name: "Peter Bidoshi",
+    image: "peter.png",
+    subteam: "iOS",
+    position: "Course Instructor",
+  },
   {
     name: "Aayush Agnihotri",
     image: "aayush.jpeg",
     subteam: "Backend",
     position: "Backend Lead",
+  },
+  {
+    name: "Jennifer Gu",
+    image: "jennifer.jpg",
+    subteam: "iOS",
+    position: "Vice Team Lead",
   },
   {
     name: "Ant Torres",
@@ -37,12 +91,6 @@ const members: Member[] = [
     position: "Member",
   },
   {
-    name: "Jennifer Gu",
-    image: "jennifer.jpg",
-    subteam: "iOS",
-    position: "Vice Team Lead",
-  },
-  {
     name: "Justin Guo",
     image: "justin.jpg",
     subteam: "Android",
@@ -61,12 +109,6 @@ const members: Member[] = [
     position: "Design Lead",
   },
   {
-    name: "Peter Bidoshi",
-    image: "peter.png",
-    subteam: "iOS",
-    position: "Course Instructor",
-  },
-  {
     name: "Richie Sun",
     image: "richie.jpg",
     subteam: "iOS",
@@ -74,4 +116,4 @@ const members: Member[] = [
   },
 ];
 
-export default members;
+export { members, peter, aayush, jennifer };

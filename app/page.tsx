@@ -1,10 +1,9 @@
-import members, { Member } from "@/types/Member";
 import Image from "next/image";
 
 export default function Home() {
 
   return (
-    <div className="flex flex-col justify-center p-16">
+    <div className="flex flex-col justify-center p-16 gap-4">
       <h1 className="text-2xl text-center">Members</h1>
       <div className="grid grid-cols-3 gap-4">
         <div className="p-2 flex flex-col gap-2 items-center">
