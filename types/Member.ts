@@ -72,6 +72,12 @@ const members: Member[] = [
     subteam: "iOS",
     position: "iOS Lead",
   },
+  {
+    name: "Funmi Olukanmi",
+    image: "funmi.jpeg",
+    subteam: "Design",
+    position: "Course Instruction",
+  }
 ];
 
 export default members;
